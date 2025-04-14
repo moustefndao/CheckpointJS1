@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="panier.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <img src="Logo1.png" alt="Bootstrap" width="54" height="50">
+            E-Gaming</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>Produits</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-handshake"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true"><i class="fa-solid fa-phone"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="1.jpg" class="card-img-top" style="width: 50%; margin-top: 1% ; margin-left: 30%;">
+                    <div class="card-body"> 
+                        <h5 class="card-title">FC25</h5>
+                        <p class="card-text">Available for PC, PS4, PS5, XBOX serie S & X.</p>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Prix: </strong><span class="price">69.99</span><button class="like"><i class="fa-solid fa-heart"></i></button>
+                        <br><br>
+                        <div class="wrapper">
+                            <button type="button" class="btn btn-primary">+</button>
+                            <span class="quantity">01</span>
+                            <button type="button" class="btn btn-secondary">-</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div><br>
+                        <strong>PrixTotal:</strong><span class="Totalprice">£69.99</span><br>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ufc.jpg" class="card-img-top" style="width: 41%; margin-top: 1% ; margin-left: 30%;">
+                    <div class="card-body"> 
+                        <h5 class="card-title">UFC 25</h5>
+                        <p class="card-text">Available for PC, PS4, PS5, XBOX serie S & X.</p>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Prix: </strong><span class="price">59.99</span> <button class="like"> <i class="fa-solid fa-heart"></i></button>
+                        <br><br>
+                        <div class="wrapper">
+                            <button type="button" class="btn btn-primary">+</button>
+                            <span class="quantity">01</span>
+                            <button type="button" class="btn btn-secondary">-</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div> <br>
+                        <strong>PrixTotal:</strong><span class="Totalprice">£59.99</span><br>
+                    </div>
+                </div>   
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="WATCHDOGS.jpeg" class="card-img-top" style="width:42%; margin-top: 1% ; margin-left: 30%;">
+                    <div class="card-body"> 
+                        <h5 class="card-title">WATCH DOGS</h5>
+                        <p class="card-text">Available for PC, PS4, PS5, XBOX serie S & X.</p>
+                    </div>
+                    <div class="card-footer">
+                        <strong>Prix: </strong><span class="price">60.00</span><button class="like"><i class="fa-solid fa-heart"></i></button>
+                        <br><br>
+                        <div class="wrapper">
+                            <button type="button" class="btn btn-primary">+</button>
+                            <span class="quantity">01</span>
+                            <button type="button" class="btn btn-secondary">-</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div> <br>
+                        <strong>PrixTotal: </strong><span class="Totalprice">£60.00</span><br>
+                    </div>
+                </div>   
+            </div>
+        </div> <br>
+        <button type="button" class="btn btn-success">Valider</button>
+        <button type="button" class="btn btn-danger">Annuler</button>
+    </div>
+    <!-- script bootstap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="panier.js"></script>
+
+</body>
+</html>
